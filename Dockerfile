@@ -1,6 +1,6 @@
-FROM gcc:latest
-WORKDIR /app
-COPY . .
-RUN g++ -o server main.cpp -pthread
-EXPOSE 8080
-CMD ["./server"]
+来自 gcc:最新
+工作目录 /app
+复制 . .
+运行 g++ -o server vote_server.cpp -pthread
+暴露 8080
+命令 ["./server"]
